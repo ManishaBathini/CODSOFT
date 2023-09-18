@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+body {
+
+    line-height: 1.6;
+    font-weight: 400;
+    color: #484848;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    font-size: 14px;
+
+    background-color: rgb(218, 214, 214);
+
+}
+
+.flower {
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.nest {
+    color: #B61D8F;
+}
+
+.banner-section-bg-container {
+    background-image: url('https://res.cloudinary.com/dqznujp3q/image/upload/f_auto,q_auto/styhookfuw1x3edwtorn');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+#navItem1 {
+    color: #B61D8F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#navItem2 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#navItem5 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#navItem6 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#navItem2:active {
+    color: #B61D8F;
+}
+
+#navItem6:active {
+    color: #B61D8F;
+}
+
+#navItem3:active {
+    color: #B61D8F;
+}
+
+#navItem4:active {
+    color: #B61D8F;
+}
+
+#navItem5:active {
+    color: #B61D8F;
+}
+
+#navItem1:active {
+    color: #B61D8F;
+}
+
+#navItem3 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#navItem4 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.banner-heading {
+    color: black;
+
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.banner-heading1 {
+    color: #B61D8F;
+    ;
+
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-caption {
+    color: #767778;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(var(--pink), rgb(73, 70, 70));
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-button:hover {
+    background-image: linear-gradient(var(--yellow), rgb(73, 70, 70));
+
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.explore-menu-section {
+    background-color: #f5cfed;
+
+}
+
+.explore-menu-section1 {
+    background-color: #85acbd;
+    text-align: center;
+
+}
+
+.menu-section-heading {
+    color: black;
+    font-family: s;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 8px;
+
+}
+
+.menu-item-image {
+    border-radius: 16px;
+    height: 30vh;
+}
+
+.menu-item-image1 {
+    border-radius: 100px;
+    width: 15vh;
+    height: 15vh;
+
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.menu-card-title1 {
+    color: #7e8183;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.menu-card-title2 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.menu-item-link {
+    color: var(--pink);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.menu-item-card {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+}
+
+.menu-item-card1 {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    width: 70vh;
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customers-section1 {
+    background-image: radial-gradient(#fff8db, #698473);
+}
+
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.follow-us-section {
+    background-color: #0d2436;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #B61D8F;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: rgb(241, 244, 244);
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    margin: 8px;
+    padding: 13px 13px 13px 13px;
+}
+
+
+.footer-section {
+    background-color: white;
+}
+
+.footer-section-mail-id {
+    color: #484848;
+    
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #484848;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.thanking-section {
+    color: #b0b200;
+    font-weight: 800;
+}
+
+.flower1 {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.nest1 {
+    font-size: 33px;
+    color: #B61D8F;
+}
+
+.video-container {
+    flex: 1 1 40rem;
+    position: relative;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+      
+}
+
+.star-style {
+
+    font-size: 20px;
+}
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.checked {
+    color: orange;
+}
+.checked1 {
+    background:  linear-gradient(orange,transparent);;
+}
+
+.video-container:hover {
+    background-color: #77a48b;
+}
+
+.menu-item-card:hover {
+    background-color: #9fc3af;
+}
+
+.checked {
+    color: orange;
+}
+
+.link-style:active {
+    color: #B61D8F;
+}
+
+.w-container {
+    background-color: whitesmoke;
+}
+
+.w-image {
+    height: 50px;
+    width: 80px;
+}
+
+.w-icon-container {
+
+    width: 40px;
+    height: 50px;
+    border-radius: 35px;
+    margin-right: 8px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+
+
+.w-para {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.w-para1 {
+    color: #5a7184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.w-para1 {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+
+.contact-heading {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.hr-line {
+    color: white;
+}
+
+.icon {
+    color: #B61D8F;
+    font-size: 25px;
+    text-align: center;
+}
+h3{
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    font-size: 2rem;
+    color: #333;
+    
+    background: #fff;
+    width: 100%;
+    padding:1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+    text-align: center;
+
+}
